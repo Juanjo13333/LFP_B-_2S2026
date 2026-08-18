@@ -1,0 +1,66 @@
+"<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HISTORIAL DE INTENTOS</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; background-color: #f4f4f9; }
+        h1 { color: #333; text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #fff; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+        th { background-color: #34495e; color: white; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .exito { color: green; font-weight: bold; }
+        .fallo { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Historial completo de intentos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Carnet</th>
+                <th>Jugador</th>
+                <th>ID Sudoku</th>
+                <th>Tiempo</th>
+                <th>Validez</th>
+                <th>Pistas Respetadas</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody> 
+                <tr>
+                <td>15-03-2026</td>
+                <td>202011234</td>
+                <td>Diego Fuentes</td>
+                <td>1</td>
+                <td>342</td>
+                <td>100.00%</td>
+                <td>SI</td>
+                <td class="exito">Resuelto</td>
+            </tr>
+                <tr>
+                <td>15-03-2026</td>
+                <td>202012345</td>
+                <td>Ana Morales</td>
+                <td>1</td>
+                <td>198</td>
+                <td>100.00%</td>
+                <td>SI</td>
+                <td class="exito">Resuelto</td>
+            </tr>
+                <tr>
+                <td>16-03-2026</td>
+                <td>202013456</td>
+                <td>Carlos Perez</td>
+                <td>2</td>
+                <td>500</td>
+                <td>0.00%</td>
+                <td>NO</td>
+                <td class="fallo">incorrecto</td>
+            </tr>
+                  </tbody>
+    </table>
+</body>
+</html>
